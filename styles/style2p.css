@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #131525;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+header{
+ 
+    height: 80px;
+    width: 100%;
+    
+    
+    
+}
+.container{
+    margin: 0 auto;
+    display: flex;    
+
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 850px;
+    margin: 10px;    
+    margin-top: 50px;
+    padding: 10px;
+
+
+}
+
+.subtext{
+    color: white;
+    width: 1100px;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    margin: 20px;
+
+}
+.tema{
+    color: #00b3ff;
+    width: 1100px;
+    font-size: 2.7rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    margin: 20px;
+}
+.projetos{
+    width: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px;
+
+}
+.span2{
+    color: #00b3ff;
+
+}
+.span3{
+    color: #00b3ff;
+}
+.subsubtext{
+    width: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+
+}
+.subsubsubtext{
+    width: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px;
+
+
+}
+.subsubsubtext span{
+    color: #00b3ff;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 55px;
+}
+.btn button{
+    width: 280px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+
+}
+.btn button::before{
+    content: '';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color:  #098dc2;
+    z-index: -1;
+    transition: 1s;
+}
+.btn button:hover:before{
+    width: 100%;
+  
+}
+
